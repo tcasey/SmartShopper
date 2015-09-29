@@ -1,0 +1,64 @@
+/* body {
+	background-color: grey;
+}
+div {
+    border: 1px solid Chocolate;
+} */
+#container {
+	width: 100%;
+	position: absolute;
+	
+}
+/* Banner Section */
+.banner {
+	background-color: maroon;
+}
+.logo {
+	border-radius: 2em;
+	z-index: 200;
+	width: 10em;
+	height: 10em;
+	margin: auto;
+    display: flex;
+    align-items: center;
+}
+.title {
+	font-family: 'Lato', sans-serif;
+	text-align: center;
+	font-weight: 300;
+	font-size: 4em;
+	padding: 0.2em;
+	-webkit-font-smoothing: antialiased;
+}
+/* List Section */
+.input-area {
+	width: 20em;
+	height: 2em;
+	border: 1px solid LightGray;
+	border-radius: 2em;
+	margin: auto;
+	display: flex;
+	align-itmes: center;
+}
+.item-entry {
+	
+}
+.added-items {
+
+}
+.listed-items {
+	font-family: 'Lato', sans-serif;
+	text-align: center;
+	list-style: none;
+	margin: 5em 0 4em 0;
+}
+/* Credit Section */
+.signature {
+	color: LightGray;
+    font-family: 'Lato', sans-serif;
+    font-size: 1rem;
+    text-align: center;
+    -webkit-font-smoothing: antialiased;
+    margin: auto;
+    background-color: blue;
+}
