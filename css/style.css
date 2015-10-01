@@ -18,11 +18,25 @@
     display: flex;
     align-items: center;
 }
+.title,
+.smart {
+
+}
 .title {
 	font-family: 'Lato', sans-serif;
 	text-align: center;
 	font-weight: 300;
 	font-size: 4em;
+	margin-top: 0;
+	margin-bottom: 0;
+	-webkit-font-smoothing: antialiased;
+}
+.smart {
+	color: maroon;
+	font-family: ;
+	text-align: center;
+	font-weight: 300;
+	font-size: 1em;
 	margin-top: 0;
 	margin-bottom: 0;
 	-webkit-font-smoothing: antialiased;
@@ -38,7 +52,47 @@
     margin-bottom: 2em;
     padding: 1em;
 }
-/* List Section */
+/* Enter Field & Button */
+.enter-field {
+	width: 20em;
+	height: 2em;
+	border: 1px solid maroon;
+	background-color: maroon;
+	color: white;
+	font-weight: 900;
+	border-radius: 2em;
+	margin: auto;
+	align-itmes: center;
+}
+.enter-item {
+	width: 20em;
+	height: 2em;
+	border: 1px solid maroon;
+	background-color: maroon;
+	color: white;
+	font-weight: 900;
+	border-radius: 2em;
+	margin: auto;
+	align-itmes: center; 
+	font-size: 0.7em;
+}
+.submit-button {
+	width: 6em;
+	height: 2em;
+	border-radius: 1em;
+	background: white;
+	border: 1px solid white;
+}
+.enter-item,
+.submit-button,
+.emptyCart-button {
+	outline: none;
+}
+.submit-button:hover {
+	background: LightGray;
+	border: LightGray;
+}
+/* Listed Items */
 .enter-field {
 	width: 20em;
 	height: 2em;
@@ -52,7 +106,10 @@
 }
 .listed-items,
 .inCart,
-.enter-field {
+.enter-field,
+.enter-item,
+.submit-button,
+.emptyCart-button  {
 	font-family: 'Lato', sans-serif;
 	text-align: center;
 	list-style: none;
@@ -102,6 +159,21 @@ i.fa.fa-check-square-o {
 	float: right;
 	color: maroon;
 }
-   
+ /* Footer */
+.emptyCart-button {
+	align-items: center;
+	background: maroon;
+	color: white;
+	border-radius: 1em;
+	border: 1px solid maroon;
+	width: 8em;
+	height: 2.8em;
+	padding: 0.6em;
+}
+.emptyCart-button:hover {
+	background: LightGray;
+	border: LightGray;
+	color: maroon;
+}  
 /* Responsiveness */
 

@@ -5,7 +5,7 @@ $(document).ready(function() {
     $('.emptyCart-button').click(function() {
         console.log( $( this ).text() );
         //$('.items').empty(); //empty's all children
-        $('li').remove(); //removes all classes that match li
+        $('li').remove();
     });
 
     $('.submit-button').click(function() {
