@@ -3,8 +3,9 @@ $(document).ready(function() {
         var input = ()*/
 
     $('.emptyCart-button').click(function() {
-        console.log( $( this ).text() );
+        console.log( event.target );
         //$('.items').empty(); //empty's all children
+        
         $('li').remove();
     });
 
