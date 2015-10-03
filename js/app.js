@@ -4,9 +4,7 @@ $(document).ready(function() {
 
     $('.emptyCart-button').click(function() {
         console.log( event.target );
-        //$('.items').empty(); //empty's all children
-        
-        $('li').remove();
+        $('.inCart').empty(); //empty's all children
     });
 
     $('.submit-button').click(function() {
@@ -18,7 +16,7 @@ $(document).ready(function() {
 
     $('.listed-items, .inCart').on('click', '.delete-circle', function() { 
         console.log( $( this ).text() );
-        $(this).closest('li').remove(); //find 'this' object. find closest list element
+        $(this).closest('li').remove(); 
     });
 
     $('.listed-items').on('click', '.unchecked-box', function(event) {
